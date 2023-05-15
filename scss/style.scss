@@ -1,0 +1,80 @@
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/nav";
+@import "partials/footer";
+@import "partials/querys";
+@import "partials/imgvarias";
+@import "partials/mixing";
+// @mixin justify($justify){
+//     display: flex;
+//     justify-content: center;
+// }
+
+hr {
+    margin: 0;
+}
+
+.conteiner {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.conteiner2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    background-color: $color-header;
+}
+
+h1 {
+    text-align: center;
+    font-family: $estilo-letra;
+    background-color: rgb(251, 251, 240);
+}
+
+p {
+    text-align: center;
+    background-color: $color-fondo;
+}
+section{
+    background-color: $color-fondo;
+}
+
+.carrusel-mio {
+    display: flex;
+    @include justify(center);
+    align-items: center;
+}
+
+.carrusel-mio2 {
+    display: flex;
+    @include justify(center);
+    align-items: center;
+}
+
+h2 {
+    font-family: $estilo-letra;
+    justify-content: center;
+    display: flex;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    height: 100vh;
+}
+
+.boton:hover{
+    transform: scale(0.5); 
+    background-color: aqua;
+
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width:425px) {
+
+    nav ul {
+        display: none;
+    }
+
+    p {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .pie {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .harry {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    #footer {
+        position: relative;
+    }
+
+    .imagenes-fans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .videos{
+        max-width: fit-content;
+    }
+}

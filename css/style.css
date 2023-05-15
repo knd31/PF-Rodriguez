@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cont-logo {
+  background-color: rgb(251, 251, 240);
+}
+.cont-logo .logo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  text-align: left;
+}
+
+.color-nav, .color-nav .color-nav2 .color-nav3 .color-nav4, .color-nav .color-nav2 .color-nav3 .color-nav4 .color-nav2 .color-nav3, .color-nav .color-nav2 .color-nav3, .color-nav .color-nav2 .color-nav3 .color-nav2, .color-nav .color-nav2 {
+  background-color: rgb(251, 251, 240);
+}
+.color-nav .color-nav2 .color-nav3, .color-nav .color-nav2 .color-nav3 .color-nav4 .color-nav2 .color-nav3 {
+  justify-content: center;
+  align-items: center;
+}
+#footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#footer .links a:hover {
+  color: rgb(1, 1, 114);
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(251, 251, 240);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+  p {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .pie {
+    justify-content: center;
+    align-items: center;
+  }
+  .harry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    position: relative;
+  }
+  .imagenes-fans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .videos {
+    max-width: fit-content;
+  }
+}
+.imagenes-fans {
+  background-color: beige;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 70px 70px 70px 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fan-una {
+  background-color: antiquewhite;
+  grid-column: 2/5;
+  grid-row: 2/4;
+  height: 225px;
+}
+
+.fan-dos {
+  background-color: antiquewhite;
+  grid-column: 3/5;
+  grid-row: 2/4;
+  height: 225px;
+}
+
+.harry {
+  background-color: beige;
+  display: grid;
+  grid-template-rows: 70px 70px 70px 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.harrygrande {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+.harrybb {
+  grid-column: 2/4;
+  grid-row: 1/4;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+hr {
+  margin: 0;
+}
+
+.conteiner {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.conteiner2 {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+header {
+  background-color: rgb(251, 251, 240);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(251, 251, 240);
+}
+
+p {
+  text-align: center;
+  background-color: beige;
+}
+
+section {
+  background-color: beige;
+}
+
+.carrusel-mio {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel-mio2 {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  display: flex;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario {
+  height: 100vh;
+}
+
+.boton:hover {
+  transform: scale(0.5);
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */

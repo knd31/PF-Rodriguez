@@ -1,0 +1,28 @@
+.cont-logo {
+    background-color: $color-header;
+    .logo {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        text-align: left;
+    }
+}
+
+.color-nav {
+    background-color: $color-header;
+    .color-nav2 {
+       @extend .color-nav;
+        .color-nav3 {
+            @extend .color-nav;
+            justify-content: center;
+            align-items: center;
+            .color-nav4 {
+                @extend .color-nav;
+            }
+        }
+    }
+}
+
+
+
+

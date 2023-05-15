@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-        </script>
 
-
-
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description"
+    content="Harry Style es un cantate que formaba parte de la banda One Direction de origen británico-irlandesa formada en 2010. 
+    Despues de estar mas de 5 años decidio lanzar su carrera como solista y actualmente es uno de los cantantes mas escuchados en el mundo.">
+    <meta name="keywords" content="Harry Style, cantante, banda, One Direction, solista">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <title> Looks </title>
 </head>
 
 <body>
     <header>
-        <img class="logo"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLD365JS1cmMQSKBCAhvqueEKy2w52dxEw-g&usqp=CAU"
-            alt="logo">
+        <div class="cont-logo">
+            <img class="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLD365JS1cmMQSKBCAhvqueEKy2w52dxEw-g&usqp=CAU"
+                alt="logo">
         <h1> Opiniones</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html"> Quienes somos</a></li>
-                <li> <a href="vida-de-harry.html"> Historia de vida</a></li>
-                <li> <a href="look.html"> Looks</a></li>
-                <li><a href="covers.html"> Covers</a></li>
-                <li><a href="contacto.html"> Contactanos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light color-nav">
+            <div class="container-fluid color-nav2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse color-nav3" id="navbarNav">
+                    <ul class="navbar-nav color-nav4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vida-de-harry.html"> Historia de vida</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="look.html">Looks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="covers.html">Covers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <hr>
@@ -43,19 +59,20 @@
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../images/look1.jpg" class="d-block w-10" alt="uno">
+                            <img src="../images/look1.jpg" class="d-block w-10" alt="Harry usando camiseta amarilla">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/dos.jpg" class="d-block w-10" alt="dos">
+                            <img src="../images/dos.jpg" class="d-block w-10" alt="Modelando por las calles de USA">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/tres.jpg" class="d-block w-10" alt="tres">
+                            <img src="../images/tres.jpg" class="d-block w-10"
+                                alt="Harry con un lokk especial para una premiacion">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/lindo.jpg" class="d-block w-10" alt="lindo">
+                            <img src="../images/lindo.jpg" class="d-block w-10" alt="Harry con un traje blanco">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/lindo2.jpg" class="d-block w-10" alt="lindodos">
+                            <img src="../images/lindo2.jpg" class="d-block w-10" alt="Harry vestido todo de negro">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -70,43 +87,38 @@
                     </button>
                 </div>
             </div>
-            <!-- <div class="conteiner">
-                <h2> Looks que mas gustaron:</h2>
-                <img src="../images/look1.jpg" alt="uno">
-                <img src="../images/dos.jpg" alt="dos">
-                <img src="../images/tres.jpg" alt="tres">
-                <img src="../images/lindo.jpg" alt="lindo">
-                <img src="../images/lindo2.jpg" alt="lindodos">
-            </div> -->
             <h2> Looks que menos gustaron:</h2>
             <div class="carrusel-mio2">
-            <div id="carouselWithInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="../images/feo1.jpg" class="d-block w-80" alt="feouno">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="../images/feo2.jpg" class="d-block w-80" alt="feodos">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/feo3.jpg" class="d-block w-80" alt="feotres">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/feo4.jpg" class="d-block w-80" alt="feocuatro">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/feo5.jpg" class="d-block w-80" alt="feocinco">
-                  </div>
+                <div id="carouselWithInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="../images/feo1.jpg" class="d-block w-80"
+                                alt="Harry con saco amarillo y bufanda violeta">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../images/feo2.jpg" class="d-block w-80"
+                                alt="Harry con camisa tranparente que le quedaba chica">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/feo3.jpg" class="d-block w-80" alt="Harry con un traje de a cuadros">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/feo4.jpg" class="d-block w-80" alt="Harry no convinando colores">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/feo5.jpg" class="d-block w-80"
+                                alt="Harry vestido con pantalon verde y sueter azul, no convinan los estilos">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselWithInterval" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselWithInterval" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselWithInterval" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselWithInterval" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
             </div>
         </section>
     </main>
@@ -122,7 +134,8 @@
             <a href="https://twitter.com" target="_blank"> Ir a Twitter </a>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
