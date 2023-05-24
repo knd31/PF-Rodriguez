@@ -65,8 +65,8 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .videos {
-    max-width: fit-content;
+  iframe {
+    width: 100%;
   }
 }
 .imagenes-fans {
@@ -76,19 +76,19 @@ footer {
   grid-template-rows: 70px 70px 70px 70px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-.fan-una {
+.imagenes-fans .fan-una {
   background-color: antiquewhite;
-  grid-column: 2/5;
+  grid-column: 1/5;
   grid-row: 2/4;
   height: 225px;
+  width: 225px;
 }
-
-.fan-dos {
+.imagenes-fans .fan-dos {
   background-color: antiquewhite;
   grid-column: 3/5;
   grid-row: 2/4;
   height: 225px;
+  width: 225px;
 }
 
 .harry {
@@ -104,7 +104,7 @@ footer {
 }
 
 .harrybb {
-  grid-column: 2/4;
+  grid-column: 1/4;
   grid-row: 1/4;
 }
 
@@ -181,6 +181,10 @@ body {
 .boton:hover {
   transform: scale(0.5);
   background-color: aqua;
+}
+
+.videos {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

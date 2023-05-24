@@ -5,10 +5,7 @@
 @import "partials/querys";
 @import "partials/imgvarias";
 @import "partials/mixing";
-// @mixin justify($justify){
-//     display: flex;
-//     justify-content: center;
-// }
+
 
 hr {
     margin: 0;
@@ -77,4 +74,8 @@ body {
     transform: scale(0.5); 
     background-color: aqua;
 
+}
+
+.videos{
+    text-align: center;
 }
